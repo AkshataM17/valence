@@ -24,11 +24,11 @@ export default function Home() {
         <section className='landing'>
         <h1>ValenceDAO</h1>
         <h2>Valence helps you to connect with researchers in DeSci and explore pool of opportunities</h2>
-        <button className='btn'><Link href="/docs">Know More</Link></button>
+        <button className='btn'><Link href="/docs" style={{backgroundColor: "#4B0150"}}>Know More</Link></button>
         </section>
         <Content/>
         <div className='footer'>
-          <p>valenceDAO</p>
+          <p style={{backgroundColor: "transparent",}}>valenceDAO</p>
         </div>
       </main>
     </>
