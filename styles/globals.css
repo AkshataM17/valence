@@ -89,6 +89,8 @@ body {
   overflow-x: hidden;
   text-align: center;
   font-family: monospace;
+  background-color: black;
+  color: white;
 }
 
 body {
