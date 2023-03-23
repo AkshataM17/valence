@@ -32,7 +32,7 @@ const Demo = () => {
         <h3><b>Bitcoin: A peer-to-peer electrocnic cash system</b></h3>
         <p><b>Satoshi Nakamoto</b></p>
         <p>Abstract. A purely peer-to-peer version of electronic cash would allow online payments to be sent directly from one party to another without going through a financial institution. </p>
-        <button className="card-button">Read more</button>
+        <button className="card-button" style={{backgroundColor: "rgb(75, 1, 80, 60%)"}}>Read more</button>
         </div>
     </div>
     <div class="card" style={{backgroundColor: "rgb(75, 1, 80, 60%)"}}>
@@ -40,7 +40,7 @@ const Demo = () => {
         <h3><b>Ethereum Whitepaper</b></h3>
         <p ><b>Vitalik Buterin</b></p>
         <p style={{color: "light-gray"}}>The anonymous e-cash protocols of the 1980s and the 1990s, mostly reliant on a cryptographic primitive known as Chaumian blinding, provided a currency with a high degree of privacy, but the protocols.. </p>
-        <button className="card-button"><AiFillLock/>Request Access</button>
+        <button className="card-button" style={{backgroundColor: "rgb(75, 1, 80, 60%)"}}><AiFillLock/><b>Request Access</b></button>
         </div>
     </div>
     </div>
